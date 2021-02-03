@@ -99,7 +99,7 @@ static AUDIO_CODEC: AudioCodec = AudioCodec::Opus;
 
 /// The video codec Janus will negotiate with all participants. H.264 is cross-compatible with modern Firefox, Chrome,
 /// Safari, and Edge; VP8/9 unfortunately isn't compatible with Safari.
-static VIDEO_CODEC: VideoCodec = VideoCodec::VP9;
+static VIDEO_CODEC: VideoCodec = VideoCodec::Vp9;
 
 /// Function pointers to the Janus core functionality made available to our plugin.
 static mut CALLBACKS: Option<&PluginCallbacks> = None;
